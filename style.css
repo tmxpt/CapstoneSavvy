@@ -1,8 +1,12 @@
+*{box-sizing:border-box;}
+
+#topHeader{color:green; background:grey;}
 
 
 
 #jumbotron {
-  background: url(https://images.unsplash.com/photo-1528334713982-2d1fe11a157a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center center no-repeat;
+  background: url(https://cdn.pixabay.com/photo/2021/09/28/05/32/physics-6663261_960_720.jpg)
+  center center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -14,6 +18,7 @@
 #jumbotron > h2 {
   color: white;
   text-align: center;
+  font-family:"Century Gothic",sans-serif;
 }
 
 #jumbotron > a {
@@ -24,7 +29,12 @@
   border-radius: 10px;
 }
 
-body{background-color:#ffd1d1;}
+#root{font-family:"Helvetica",sans-serif;}
+
+
+body{background-color:#ffd1d1;
+      }
+
 
 form {
   border: solid 1px black;

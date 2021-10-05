@@ -1,8 +1,11 @@
 export default () => `
 <main>
 <section id="jumbotron">
-  <h2>Savvy Coders Aug 21 Cohort</h2>
-  <a href="">"Call to Action" "Button"</a>
+  <h2>Enter a Location. Returns coordinates, distance(maybe), weather, events(?)</h2>
+  <form>
+    <input type="search" placeholder="goal: suggestions here">
+    <input type="button" value="submit">
+  </form>
 </section>
 </main>
 `;
