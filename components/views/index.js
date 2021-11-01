@@ -1,6 +1,5 @@
 export { default as Home } from "./Home.js";
-export { default as Gallery } from "./Gallery.js";
-export { default as Bio } from "./Bio.js";
-export { default as Wardens } from "./Wardens.js";
-export { default as WeatherMap } from "./WeatherMap.js";
-export { default as Wikipedia } from "./Wikipedia.js";
+export { default as Twitter } from "./Twitter.js";
+export { default as Instagram } from "./Instagram.js";
+export { default as Youtube } from "./Youtube.js";
+export { default as Facebook } from "./Facebook.js";

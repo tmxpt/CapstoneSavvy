@@ -1,8 +1,7 @@
 export default [
   { title: "Home", text: "Home" },
-  { title: "Bio", text: "Bio" },
-  { title: "Gallery", text: "Gallery" },
-  { title: "River", text: "River" },
-  { title: "Weather Map", text: "Weather Map" },
-  { title: "Wikipedia", text: "Wikipedia" }
+  { title: "Twitter", text: "Twitter" },
+  { title: "Instagram", text: "Instagram" },
+  { title: "Youtube", text: "Youtube" },
+  { title: "Facebook", text: "Facebook" }
 ];

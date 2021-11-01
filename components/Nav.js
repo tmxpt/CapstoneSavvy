@@ -9,7 +9,8 @@ export default links => `
     links
       .map(
         el => `
-        <li><a href="/${el.title}" title="${el.title}" data-navigo>
+        <li><a href="/${el.title}" title="${el.title}"
+        class="${el.title}-icon" data-navigo>
           ${el.text}
         </a></li>`
       )
