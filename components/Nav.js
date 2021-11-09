@@ -1,7 +1,6 @@
 export default links => `
 <nav>
-<i class="fas fa-bars"></i>
-<ul class="hidden--mobile nav-links">
+<ul id="nav-links">
   ${
     // constructing HTML list items from array
     //  - .map reformats the elements in the array into html and constructs a new array from the results
