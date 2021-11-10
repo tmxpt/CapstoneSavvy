@@ -1,4 +1,5 @@
 export default {
   header: "Twitter",
-  page: "Twitter"
+  page: "Twitter",
+  weather: {}
 };

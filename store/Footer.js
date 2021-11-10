@@ -1,5 +1,5 @@
 export default {
-  header: "HOMEPAGE tmptxh",
+  header: "Home",
   page: "Home",
   weather: {}
 };

@@ -1,4 +1,5 @@
 export default {
   header: "Youtube",
-  page: "Youtube"
+  page: "Youtube",
+  weather: {}
 };

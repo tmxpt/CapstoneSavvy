@@ -9,41 +9,20 @@ dotenv.config();
 
 const router = new Navigo(window.location.origin);
 
-router.hooks({
-  before: (done, params) => {
-    const page =
-      params && params.hasOwnProperty("page")
-        ? capitalize(params.page)
-        : "Home";
-    if (page === "Home") {
-      console.log(process.env);
-      axios
-        .get(
-          `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
-        )
-        .then(response => {
-          state.Home.weather = {};
-          state.Home.weather.city = response.data.name;
-          state.Home.weather.temp = response.data.main.temp;
-          state.Home.weather.feelsLike = response.data.main.feels_like;
-          state.Home.weather.description = response.data.weather[0].main;
-          done();
-        })
-        .catch(err => console.log(err));
-    }
-    if (page === "Pizza") {
-      axios
-        .get(`${process.env.PIZZA_PLACE_API_URL}`)
-        .then(response => {
-          state.Pizza.pizzas = response.data;
-          done();
-        })
-        .catch(error => {
-          console.log("It puked", error);
-        });
-    }
-  }
-});
+axios
+  .get(
+    `https://api.openweathermap.org/data/2.5/weather?appid=e6d9c98ff5bbebc24a7fb32541d9cf33&q=st.%20louis`
+  )
+  .then(response => {
+    state.Footer.weather = {};
+    state.Footer.weather.city = response.data.name;
+    console.log(state.Footer.weather.city);
+    state.Footer.weather.temp = response.data.main.temp;
+    state.Footer.weather.feelsLike = response.data.main.feels_like;
+    state.Footer.weather.description = response.data.weather[0].main;
+    done();
+  })
+  .catch(err => console.log(err));
 
 router
   .on({
@@ -60,7 +39,7 @@ function render(st) {
   ${Header(st)}
   ${Nav(state.Links)}
   ${Main(st)}
-  ${Footer()}
+  ${Footer(st)}
   `;
 
   router.updatePageLinks();
@@ -79,11 +58,13 @@ function addEventListeners(st) {
   );
 
   // add menu toggle to bars icon in nav bar
+  /*
   document
     .querySelector(".fa-bars")
     .addEventListener("click", () =>
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
+    */
 
   if (st.page === "Order") {
     document.querySelector("form").addEventListener("submit", event => {

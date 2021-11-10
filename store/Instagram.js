@@ -1,4 +1,5 @@
 export default {
   header: "Instagram",
-  page: "Instagram"
+  page: "Instagram",
+  weather: {}
 };
