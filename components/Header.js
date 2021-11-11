@@ -5,8 +5,8 @@ export default st => `
 <form>
 <div id="input-form">
   <label for="twitter-username-input" id="input-form-at-sign">@</label>
-  <input type="text" id="twitter-username-input" name="twitter-username-input">
-  <input type="submit" value="Submit">
+  <input type="text" id="twitter-username-input" placeholder="tweetsauce" disabled>
+  <input type="submit" value="Submit" disabled>
 </div>
 </form>
 

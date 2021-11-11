@@ -10,7 +10,8 @@ export default links => `
         el => `
         <li><a href="/${el.title}" title="${el.title}"
         class="${el.title}-icon" data-navigo>
-          ${el.text}
+          <div class="nav-icon"></div>
+          <span class="nav-text">${el.text}</span>
         </a></li>`
       )
       .join("")

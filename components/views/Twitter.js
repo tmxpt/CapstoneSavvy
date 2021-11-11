@@ -1,5 +1,22 @@
 export default () => `
 <main>
 <h2>TWITTER</h2>
-<iframe style="border:none;" width="550" height="400" data-tweet-url="https://twitter.com/TwitterDev/status/1456337866347343883" src="data:text/html;charset=utf-8,%3Cblockquote%20class%3D%22twitter-tweet%22%3E%3Cp%20lang%3D%22en%22%20dir%3D%22ltr%22%3EThe%20year%20is%20beginning%20to%20wind%20down%2C%20but%20the%20Twitter%20API%20v2%20continues%20to%20move%20forward%20like%20never%20before.%20%3Cbr%3E%3Cbr%3ERead%20on%20to%20catch%20up%20on%20the%20last%20couple%20months%20of%20progress%20on%20the%20%3Ca%20href%3D%22https%3A//twitter.com/hashtag/TwitterAPI%3Fsrc%3Dhash%26amp%3Bref_src%3Dtwsrc%255Etfw%22%3E%23TwitterAPI%3C/a%3E%20%uD83E%uDDF5%3Ca%20href%3D%22https%3A//t.co/Xijy1fcZ64%22%3Ehttps%3A//t.co/Xijy1fcZ64%3C/a%3E%3C/p%3E%26mdash%3B%20Twitter%20Dev%20%28@TwitterDev%29%20%3Ca%20href%3D%22https%3A//twitter.com/TwitterDev/status/1456337866347343883%3Fref_src%3Dtwsrc%255Etfw%22%3ENovember%204%2C%202021%3C/a%3E%3C/blockquote%3E%0A%3Cscript%20async%20src%3D%22https%3A//platform.twitter.com/widgets.js%22%20charset%3D%22utf-8%22%3E%3C/script%3E%0A"></iframe>
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1458814027254149125"></iframe>
+
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+
+<iframe border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+
 </main>`;

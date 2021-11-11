@@ -1,5 +1,4 @@
 import html from "html-literal";
-import * as state from "../store";
 
 const kelvinToFahrenheit = kelvinTemp =>
   Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
@@ -8,7 +7,8 @@ let city = state.Home.weather.name;
 let temp = kelvinToFahrenheit(parseInt(state.Home.weather.temp));
 let feelLike = kelvinToFahrenheit(parseInt(state.Home.weather.feelsLike));
 */
-export default st => html`
+
+export default () => html`
   <footer>
     <div id="footer-sections">
       <div>
@@ -38,6 +38,11 @@ export default st => html`
               title="Md Tanvirul Haque"
               >Md Tanvirul Haque</a
             >
+            <a
+              href="https://www.flaticon.com/packs/social-media-194"
+              title="social-media-194"
+              >social-media-194 by Md Tanvirul Haque</a
+            >
             from
             <a href="https://www.flaticon.com/" title="Flaticon"
               >www.flaticon.com</a
@@ -47,11 +52,6 @@ export default st => html`
       </div>
     </div>
 
-    <div>
-      <h3>
-        Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F,
-        feels like ${kelvinToFahrenheit(st.weather.feelsLike)}F
-      </h3>
-    </div>
+    <div></div>
   </footer>
 `;
