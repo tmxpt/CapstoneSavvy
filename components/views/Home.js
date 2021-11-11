@@ -3,9 +3,9 @@ const kelvinToFahrenheit = kelvinTemp =>
 
 export default st => `
 <main>
-<div class="text-content">
-<div class="text-flex">
-  <div>
+<div class="page-content">
+<div class="self-content">
+  <div class="text-content">
     <h1>Welcome to the ${st.header} of my website.</h1>
     <p>Hi, I’m Tomoki Poth. For the last few years, I have been working in entry level positions. I hope to soon change that and use my technical knowledge and skills to enter a career in the tech industry.<br><br>
     I was first introduced to some graphic design and editing softwares during this time. In college, I took the next step, learning some programming. These eventually have led to an interest in a career in web development.<br><br>
@@ -13,14 +13,61 @@ export default st => `
     </p><br><br>
   </div>
 
-    </div>
+  <div>
+    <a href="https://docs.google.com">
+    <div class="image-wireframes"></div>
+    </a>
+  </div>
+
+  </div>
 </div>
-    <br>
+    <div class="page-content">
     <h3>
     Weather in ${st.weather.city}
     ${kelvinToFahrenheit(st.weather.temp)}F, feels like
     ${kelvinToFahrenheit(st.weather.feelsLike)}F
-  </h3>
+    </h3>
+  </div>
+  <div class="page-content">
+    <iframe class="ig-iframe" src="https://www.instagram.com/p/CV3P7OjBJp8/embed" frameborder="0"   scrolling="no" allowtransparency="true">
+    </iframe>
+    <iframe class="ig-iframe" src="https://www.instagram.com/p/CVnM-VTgk1x/embed" frameborder="0"   scrolling="no" allowtransparency="true">
+    </iframe>
+    <iframe class="ig-iframe" src="https://www.instagram.com/p/CViWJ3mDHRz/embed" frameborder="0"   scrolling="no" allowtransparency="true">
+    </iframe>
+  </div>
+
+  <div class="page-content">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yYXnxnix10A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yYXnxnix10A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yYXnxnix10A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="page-content">
+
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1458814027254149125">
+    </iframe>
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1458123725350576131">
+    </iframe>
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457741634561523721">
+    </iframe>
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457732646251925507">
+    </iframe>
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457390390865285122">
+    </iframe>
+    <iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+    src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1456704370830151680">
+    </iframe>
+
+  </div>
 
 </main>
 `;

@@ -1,22 +1,22 @@
 export default () => `
 <main>
 <h2>TWITTER</h2>
-<iframe border=0 frameborder=0 scrolling="no"
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
 src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1458814027254149125"></iframe>
 
-<iframe border=0 frameborder=0 scrolling="no"
-src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1458123725350576131"></iframe>
 
-<iframe border=0 frameborder=0 scrolling="no"
-src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457741634561523721"></iframe>
 
-<iframe border=0 frameborder=0 scrolling="no"
-src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457732646251925507"></iframe>
 
-<iframe border=0 frameborder=0 scrolling="no"
-src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1457390390865285122"></iframe>
 
-<iframe border=0 frameborder=0 scrolling="no"
-src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Ftweetsauce%2Fstatus%2F1457451857215844354"></iframe>
+<iframe class="tw-iframe" border=0 frameborder=0 scrolling="no"
+src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fmozilla%2Fstatus%2F1456704370830151680"></iframe>
 
 </main>`;
